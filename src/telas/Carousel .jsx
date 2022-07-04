@@ -1,7 +1,7 @@
 import { Carousel, Image } from 'react-bootstrap';
-import banner1 from '../assets/img/banner1.jpg';
-import banner2 from '../assets/img/banner2.jpg';
-import banner3 from '../assets/img/banner3.jpg';
+import banner1 from '../assets/img/banner1.png';
+import banner2 from '../assets/img/banner2.png';
+import banner3 from '../assets/img/banner3.png';
 import Banner from '../assets/styles/Banner.css';
 import { useState } from 'react';
 
@@ -13,7 +13,7 @@ function Carouseltela() {
     <Carousel fade className='Banner' >
       {images.map((image) => (
         <Carousel.Item>
-          <Image src={image} fluid={true} className="img-fluid" />
+          <Image src={image} fluid={true}/>
         </Carousel.Item>
       ))}
     </Carousel>

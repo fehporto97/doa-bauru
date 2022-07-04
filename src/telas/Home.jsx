@@ -5,6 +5,7 @@ import Footer from './Footer';
 import Carousel from './Carousel ';
 import DestaqueCards from '../components/DestaqueCards';
 import { Container } from 'react-bootstrap';
+import fundo from '../assets/styles/fundo.css';
 
 
 
@@ -29,15 +30,14 @@ export default function Home() {
     ]);
 
     return (
-        <>
-        <Navibar />
-           
-            <Container className="mt-3">
+        <div className="fundo" >
+            <Container className="fundo-container">
+            <Navibar />
             <Carousel/>
                 <DestaqueCards ongs={ongs} />
                 <Accordion />
             </Container>
             <Footer />
-        </>
+        </div>
     );
 }
