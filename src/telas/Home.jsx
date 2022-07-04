@@ -31,8 +31,9 @@ export default function Home() {
     return (
         <>
         <Navibar />
-            <Carousel />
+           
             <Container className="mt-3">
+            <Carousel/>
                 <DestaqueCards ongs={ongs} />
                 <Accordion />
             </Container>

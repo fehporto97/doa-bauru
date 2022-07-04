@@ -2,6 +2,7 @@ import React from 'react'
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from './telas/Home'
 import Login from './telas/Login';
+import Instituicoes from './telas/Instituicoes';
 
 export default function App() {
     return (
@@ -11,6 +12,9 @@ export default function App() {
           </Route>
           <Route path="/login" element={<Login />}></Route>
         </Routes>
+        <Routes>
+          <Route path="/instituicoes" element={<Instituicoes />}></Route>
+          </Routes>
       </BrowserRouter>
     );
   }

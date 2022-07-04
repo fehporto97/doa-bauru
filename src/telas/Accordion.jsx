@@ -1,5 +1,5 @@
 import {Accordion} from 'react-bootstrap';
-import '../telas/styles/Accordion.css'
+import '../assets/styles/Accordion.css'
 
 function accordion() {
     return (
