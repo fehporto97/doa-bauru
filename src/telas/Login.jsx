@@ -1,14 +1,12 @@
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import icon from '../assets/img/icon-login.png';
-import Navibar from './Navibar';
 
 import '../assets/styles/Login.css'
 
 export default function Login() {
   return (
     <div className='login-container'>
-      
     <div className='Tela-login'>
       <Form>
         <Form.Group>
